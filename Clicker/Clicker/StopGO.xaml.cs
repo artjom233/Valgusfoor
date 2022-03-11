@@ -117,6 +117,10 @@ namespace Clicker
                     red.Color = Color.Gray;
                     await Task.Delay(500);
                 }
+                if (on_off == false)
+                {
+                    break;
+                }
                 red.Color = Color.Red;
                 await Task.Delay(500);
                 btn.Text = ("Valja");
@@ -131,6 +135,10 @@ namespace Clicker
                     yellow.Color = Color.Gray;
                     await Task.Delay(500);
                 }
+                if (on_off == false)
+                {
+                    break;
+                }
                 yellow.Color = Color.Yellow;
                 await Task.Delay(500);
                 btn.Text = ("Valja");
@@ -144,6 +152,10 @@ namespace Clicker
                     await Task.Delay(500);
                     green.Color = Color.Gray;
                     await Task.Delay(500);
+                }
+                if (on_off == false)
+                {
+                    break;
                 }
                 green.Color = Color.Green;
                 await Task.Delay(500);
